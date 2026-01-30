@@ -1,0 +1,122 @@
+<%- include("layout") %>
+
+<section class="hero reveal">
+  <div class="hero-img fade-in-left">
+    <img src="/images/profile.jpeg" alt="Surya Photo">
+  </div>
+
+  <div class="hero-text fade-in-right">
+    <h1 class="glow-text">Surya Prakash Singh</h1>
+    <span class="typing"></span>
+    <p>Greater Noida, UP, India</p>
+
+    <div class="hero-buttons mb-3">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="/resume.pdf" class="btn btn-secondary">Download Resume</a>
+    </div>
+
+    <div class="social-links mt-3">
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>&nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/prakash770405" target="_blank" class="social-icon">
+        <i class="fab fa-github"></i>
+      </a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section id="skills" class="container reveal">
+  <h2 class="section-title">Skills</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <ul class="skill-list">
+        <li>Node.js, Express.js, REST APIs</li>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Bootstrap, Responsive UI</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <ul class="skill-list">
+        <li>MySQL (Basics)</li>
+        <li>Git, GitHub, Postman</li>
+        <li>DSA, OOP, DBMS</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="container reveal">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="row g-4">
+
+    <div class="col-md-4 col-sm-6">
+      <div class="project-card tilt">
+        <img src="/images/rental.png" alt="Wanderlust Project" class="project-img mb-3">
+        <h4>Rental Platform</h4>
+        <p>Rental Marketplace platform with CRUD, reviews, and MVC structure.</p>
+        <div class="tech-stack mb-2">
+          <span class="tech">Node.js</span>
+          <span class="tech">Express</span>
+          <span class="tech">Bootstrap</span>
+        </div>
+        <div class="project-links">
+          <a href="https://wanderlust-14ny.onrender.com/" target="_blank">Live Demo</a>
+          <a href="https://github.com/prakash770405/wanderlust" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="project-card tilt">
+        <img src="/images/school.png" alt="School Record Project" class="project-img mb-3">
+        <h4>School Record System</h4>
+        <p>RBAC system with secure login, dashboards, and role-based features.</p>
+        <div class="tech-stack mb-2">
+          <span class="tech">Node.js</span>
+          <span class="tech">Express</span>
+          <span class="tech">Authentication</span>
+        </div>
+        <div class="project-links">
+          <a href="https://school-records-v2.onrender.com/" target="_blank">Live Demo</a>
+          <a href="https://github.com/prakash770405/school-record" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+      <div class="project-card tilt">
+        <img src="/images/task.jpg" alt="Task Manager Project" class="project-img mb-3">
+        <h4>Task Manager</h4>
+        <p>Lightweight To-Do app with optimized SQL queries and user management.</p>
+        <div class="tech-stack mb-2">
+          <span class="tech">Node.js</span>
+          <span class="tech">Express</span>
+          <span class="tech">MySQL</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank">Live Demo</a>
+          <a href="https://github.com/prakash770405/task-manager" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="education" class="container reveal">
+  <h2 class="section-title">Education</h2>
+  <ul class="timeline">
+    <li>MCA (2023–2025) – GREATER NOIDA INSTITUTE OF TECHNOLOGY </li><br>
+    <li>BCA (2021–2023) – RAJARSHI SCHOOL OF MANAGEMENT AND TECHNOLOGY </li><br>
+    <li>Class XII (2019-2020) – CBSE – RAM LAKHAN PUBLIC SCHOOL</li><br>
+    <li>Class X (2018-2019) – CBSE – ST. GEORGE PREPARATORY SCHOOL</li>
+  </ul>
+</section>
+
+<%- include("footer") %>
