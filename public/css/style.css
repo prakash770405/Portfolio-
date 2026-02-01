@@ -318,3 +318,41 @@ body {
   .footer-social a { font-size: 24px; }
   .footer-contact p { font-size: 0.8rem; }
 }
+
+
+/* ================= ABOUT SECTION ================= */
+.about-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin-bottom: 15px;
+}
+
+.about-highlights {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.about-highlights li {
+  margin-bottom: 10px;
+  color: #e5e7eb;
+}
+
+.about-highlights li::before {
+  content: "▹";
+  color: #22d3ee;
+  margin-right: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-text {
+    font-size: 0.95rem;
+  }
+}
